@@ -1,0 +1,41 @@
+/**index.wxss**/
+view {
+  /* 使用主题颜色 */
+  /* color: var(--themeColor); */
+}
+.index_swiper swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_swiper swiper image {
+  width: 100%;
+}
+.cateNav {
+  display: flex;
+}
+.cateNav .cateitem {
+  flex: 1;
+  height: 100%;
+  padding: 10rpx;
+}
+.cateNav .cateitem image {
+  width: 100%;
+  height: 100%;
+}
+.floor {
+  margin-top: 30rpx;
+}
+.floor .floorNav .floorTop navigator image {
+  height: 100%;
+}
+.floor .floorNav .floorList navigator {
+  float: left;
+  width: 33%;
+}
+.floor .floorNav .floorList navigator:nth-last-child(-n +4) image {
+  width: 95%;
+  height: 95%;
+}
+.floor .floorNav .floorList navigator image {
+  width: 100%;
+}
